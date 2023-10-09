@@ -1,0 +1,89 @@
+/* Estilos generales */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    padding: 80px 20px 0;
+    background-color: pink;
+    color: #333;
+}
+
+/* Estilos del encabezado */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex; /* Hacemos que el contenido del encabezado sea flexible */
+    justify-content: space-between; /* Espacio entre el logo y el menú */
+    align-items: center; /* Centramos verticalmente el contenido */
+    padding: 0 20px;
+}
+
+/* Estilos del logo */
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* Todo del menú de navegación */
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu-item {
+    margin-right: 20px; /* Espacio entre elementos del menú */
+}
+
+.nav-menu-link {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Estilos de la sección principal */
+section {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos para la sección de productos */
+.productos {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.producto img {
+    max-width: 100%;
+    height: auto;
+}
+
+.producto a {
+    text-decoration: none;
+    background-color: #FFC0CB;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+/* Estilos para el iframe */
+iframe {
+    margin-top: 40px; /* Espacio entre los productos y el iframe */
+    border: none;
+}
+
+.center-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
